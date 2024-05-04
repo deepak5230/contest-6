@@ -1,0 +1,402 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+  .body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+width: Hug (1,440px)px;
+height: Hug (114px)px;
+gap: 0px;
+opacity: 0px;
+box-shadow: 0px 2px 40px 0px #0000001F;
+background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+width: Fixed (1,439.98px)px;
+height: Hug (77px)px;
+padding: 15px 108px 15px 108px;
+gap: 0px;
+opacity: 0px;
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+.login-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0069d9;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #333, #444);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.hero img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.countdown >p{
+    
+width: Fixed (1,440px)px;
+height: Hug (37px)px;
+padding: 8px 562px 8px 562px;
+
+opacity: 0px;
+background: #2F80ED;
+font-size: 24px;
+font-weight: bold;
+color: #ff69b4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container{
+    display:grid;
+    grid-template-columns:100px 100px;
+
+}
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.header h1 {
+    margin: 0;
+}
+.info {
+    padding: 20px;
+}
+.info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.info ul li {
+    margin-bottom: 10px;
+}
+.info ul li span {
+    font-weight: bold;
+}
+.apply-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.apply-button:hover {
+    background-color: #3e8e41;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-left:20px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.h_1 {
+    display:flex;
+    justify-content: center;
+    margin-left:100px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px;
+    width: calc(33.33% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.list >ul{
+    display:flex;
+    justify-content: space-around;
+}
+
+.course h3 {
+    margin-top: 0;
+}
+
+.course ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.course li {
+    margin-bottom: 10px;
+}
+
+.course button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.course button:hover {
+    background-color: #444;
+}
+
+.brochure {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.brochure:hover {
+    color: #23527c;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.partners {
+    background-color: #f7f7f7;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.partners h2 {
+    margin-top: 0;
+}
+
+.partners ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.partners li {
+    margin-bottom: 10px;
+}
+
+.partners li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.partners p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #444;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+.header-3{
+display:flex;
+justify-content: center;
+width: 420px;
+height: 63px;
+gap: 0px;
+opacity: 0px;
+font-family: ABeeZee;
+font-size: 42px;
+font-style: italic;
+font-weight: 400;
+line-height: 63px;
+letter-spacing: -0.015em;
+text-align: center;
+background: #2B2F34;
+align-items: center;
+
+
+}
+.header-4{
+ width: 181px;
+height: 23px;
+gap: 0px;
+opacity: 0px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 23.4px;
+letter-spacing: 0.02em;
+text-align: left;
+
+
+}
+.container{
+    display:flex;
+    justify-content:center;
+}
+
+#header-3{
+    align-item:center;
+}
+.testimonial-container{
+    display:grid;
+    grid-template-columns: (100px 100px 100px);
+width: 1440px;
+height: 972px;
+padding: 96px 107px 138px 107px;
+gap: 0px;
+opacity: 0px;
+background: #FFFFFF;
+
+
+}
+.testimonial{
+    display:grid;
+    grid-template-columns: columns;
+    width: Hug (398px)px;
+    height: Hug (261px)px;
+    padding: 24px 0px 0px 0px;
+    gap: 15px;
+    border-radius: 10px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    background: #FFFFFF;
+
+
+
+}
+
+   .links{
+        display:flex;
+        justify-content:space-between;
+
+}
+.h-5{
+    margin:0px;
+}
